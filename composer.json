@@ -1,0 +1,26 @@
+{
+	"name": "pessek/hypecountries",
+	"type": "elgg-plugin",
+	"description": "Countries for Elgg",
+	"keywords": [
+		"elgg", "plugin", "countries"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+    "extra": {
+        "installer-name": "hypeCountries"
+    },
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	},
+	"require": {
+		"npm-asset/svg-country-flags": "^1.2"
+	}
+}
